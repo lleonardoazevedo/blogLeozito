@@ -26,6 +26,14 @@
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true
+    "strictTemplates": true,
+
+    "typeRoots": [
+      "./src/@types",
+      "./custom_typings",
+      "./@types",
+      "./node_modules/@types"
+    ]
   }
 }
+
