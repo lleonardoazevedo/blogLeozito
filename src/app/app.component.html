@@ -1,11 +1,11 @@
 <!-- classes para referencia e aparecer na tela -->
 
-<!-- <app-menu></app-menu> -->
-
-<!-- <app-rodape></app-rodape> -->
+<app-menu *ngIf='auth.logado()'></app-menu>
 
 <!-- <app-entrar></app-entrar> -->
 
 <!-- <app-cadastrar></app-cadastrar> -->
 
 <router-outlet></router-outlet>
+
+<app-rodape *ngIf='auth.logado()'></app-rodape>

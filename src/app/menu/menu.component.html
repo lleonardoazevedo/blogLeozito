@@ -8,10 +8,10 @@
         <li class="nav-item active">
         </li>
         <li> 
-             <img src="https://i.imgur.com/7AVHmAJ.jpg" alt="Foto do Leozito" width="50px" height="50px" class="img-fluid rounded-circle">
+             <img src="{{foto}}" alt="Foto do Leozito" width="50px" height="50px" class="img-fluid rounded-circle">
         </li>
         <li class="nav-item pl-3">
-          <p class="m-0 font-weight-bold text-white text-monospace fs-16">Nome do Usuario</p>
+          <p class="m-0 font-weight-bold text-white text-monospace fs-16">Oi, {{nome}}</p>
         </li>
     <li class="nav-item pl-3 mr-auto">
         <a href="">
@@ -21,7 +21,7 @@
   </ul>
     <ul class="navbar-nav ml-auto d-flex align-items-center">
         <li class="nav-item pl-3">
-            <a class="m-0 font-weight-bold text-white text-monospace fs-16">Sair <i class="fa fa-sign-out" aria-hidden="true"></i></a>
+            <a (click)='sair()' class="m-0 font-weight-bold text-white text-monospace fs-16">Sair <i class="fa fa-sign-out" aria-hidden="true"></i></a>
 
     </ul>
     </div>
